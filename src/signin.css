@@ -1,0 +1,140 @@
+.form-container {
+  width: 300px;            /* Adjust for ResetForm / SignInForm width */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  background-color:white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 75px;       /* Adjust top margin per form if needed */
+  text-align: left;
+  border-style:ridge;
+}
+
+/* Headings */
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-container h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Labels and Inputs */
+.form-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+/* Buttons */
+.form-container button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+  font-size: 16px; 
+  transition: background 0.3s, transform 0.2s; 
+}
+
+/* Primary button style */
+.btn-primary {
+  background-color: blue;
+  color: white;
+}
+.btn-primary:hover {
+  background-color: #003399; /* darker blue */
+  transform: scale(1.03);    /* slight zoom */
+}
+
+/* Paragraph links */
+.form-container p {
+  margin-top: 15px;
+  text-align: center;
+}
+.form-container input:focus {
+  outline: none;
+  border-color: #4caf50;  /* Green border */
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+body{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/017/398/144/non_2x/healthcare-services-annual-health-checkup-heart-rate-pulse-measurement-pills-antibiotics-dna-diseases-genes-illustration-on-light-blue-hexagonal-background-health-and-medicine-concept-vector.jpg");
+    background-size: cover;
+}
+/* SignUp Container */
+.signup-container {
+  width: 300px;
+  padding: 20px;
+  border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  background-color: white;
+  margin: 80px auto;
+  text-align: left;
+  border-style: ridge;
+   margin-top: 105px; 
+}
+
+/* Heading */
+.signup-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 22px;
+  color: #333;
+}
+
+/* Inputs */
+.signup-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #bbb;
+  margin-bottom: 15px;
+  transition: 0.3s;
+  box-sizing: border-box;
+}
+
+.signup-input:focus {
+  outline: none;
+  border-color: #4caf50;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+/* Button */
+.signup-button {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  background: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.signup-button:hover {
+  background: #43a047;
+}
+
+/* Message */
+.signup-message {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}

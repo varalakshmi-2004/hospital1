@@ -1,0 +1,160 @@
+.departments-page {
+  background-color: #f4f3f2;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.departments-header {
+  background-color: #e39152;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.departments-header h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.departments-section {
+  text-align: center;
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.sub-heading {
+  color: #1814dc;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.departments-section h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Grid for buttons */
+.departments-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+/* Each button styled like a card */
+.department-card {
+  background: white;
+  border-radius: 10px;
+  padding: 30px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: none;
+}
+
+.department-card:hover {
+  background: #2563eb;
+  color: white;
+  transform: translateY(-5px);
+}
+.general-container {
+  padding: 2.5rem;
+  background: #f9fafb;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.general-title {
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: #1e3a8a; /* navy blue */
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.general-description {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  color: #374151; /* gray */
+  text-align: center;
+}
+
+.general-list {
+  list-style-type: disc;
+  padding-left: 2rem;
+  line-height: 1.8;
+  color: #111827; /* dark gray */
+}
+
+.general-list li {
+  padding: 6px 0;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.general-list li:hover {
+  transform: translateX(5px);
+  color: #dc2626; /* red */
+}
+
+.temp-section {
+  margin-top: 2rem;
+  padding: 1rem;
+  background: #e0f2fe;
+  border-left: 6px solid #0284c7; /* blue highlight */
+  border-radius: 8px;
+}
+
+.temp-section h2 {
+  font-size: 1.3rem;
+  color: #0369a1;
+  margin-bottom: 0.5rem;
+}
+
+.temp-section p {
+  font-size: 1rem;
+  color: #1e293b;
+}
+
+.appointment-link {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 10px 18px;
+  background: #16a34a;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.2s ease;
+}
+.appointment-link:hover {
+  background: #15803d;
+}
+.general-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.general-left {
+  flex: 1;
+}
+
+.general-right img {
+    margin-left: 40px;
+  max-width: 50%;
+  max-height: 35%;
+}
+
+.general-right img {
+  max-width: 50%;
+  height: 35%;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
